@@ -61,3 +61,35 @@ axios.post('http://localhost:3000/logs/post',
 .then(response => console.log(response.data))
 .catch(error => console.error('Error:', error));
 ```
+
+
+# Table of Contents
+
+| Section Title            | Description                    |
+|--------------------------|--------------------------------|
+| [Introduction](#introduction) | Overview of the content.      |
+| [Getting Started](#getting-started) | Steps to begin.              |
+| [Features](#features)    | Key features of the application. |
+| [Installation](#installation) | How to install the software.   |
+| [Conclusion](#conclusion) | Final thoughts and summary.    |
+
+## Introduction
+
+This is the introduction section where you provide an overview.
+
+## Getting Started
+
+In this section, you will find steps to get started.
+
+## Features
+
+Here you can detail the key features of your application.
+
+## Installation
+
+Instructions on how to install the software.
+
+## Conclusion
+
+Final thoughts and a summary of the content discussed.
+
