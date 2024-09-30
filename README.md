@@ -9,7 +9,7 @@ Welcome to the guide for integrating the frontend with our NestJS backend. This 
 
 _________________________________________________________________________________________________
 
-## 1. Base URL
+##  Base URL
    The backend is hosted at:
      
    ```
@@ -17,7 +17,7 @@ ________________________________________________________________________________
   ```
    Make sure all API calls from the frontend are directed to this base URL. Append the appropriate route based on the service or functionality you need.
 
-## 2. API Endpoints
+##  API Endpoints
   - Create a log<br>
     Allows creation of a new log.
 
@@ -25,10 +25,10 @@ ________________________________________________________________________________
   ```
     http://localhost:3000/logs/post
 ```
-## 3. CORS
+##  CORS
 CORS is enabled in the NestJS backend, allowing cross-origin requests from the frontend. Make sure your frontend makes requests to the backend with proper Origin headers.
 
-## 4. Example Code Snippets
+##  Example Code Snippets
  Posting Data Using `fetch` API (JavaScript)
  ```
 fetch('http://localhost:3000/logs/post', {
