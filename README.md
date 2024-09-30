@@ -2,10 +2,10 @@
 Welcome to the guide for integrating the frontend with our NestJS backend. This document will explain the key steps, routes, and patterns to follow for a smooth integration process.
 
 ## Table of Contents
-  1. [Base URL](#1)
-  2. [API Endpoints](#2)
-  3. [CORS](#3)
-  4. [Example Code Snippets](#4)
+  1. [Base URL](#1.)
+  2. [API Endpoints](#2.)
+  3. [CORS](#3.)
+  4. [Example Code Snippets](#4.)
 
 _________________________________________________________________________________________________
 
@@ -62,34 +62,4 @@ axios.post('http://localhost:3000/logs/post',
 .catch(error => console.error('Error:', error));
 ```
 
-
-# Table of Contents
-
-| Section Title            | Description                    |
-|--------------------------|--------------------------------|
-| [Introduction](#introduction) | Overview of the content.      |
-| [Getting Started](#getting-started) | Steps to begin.              |
-| [Features](#features)    | Key features of the application. |
-| [Installation](#installation) | How to install the software.   |
-| [Conclusion](#conclusion) | Final thoughts and summary.    |
-
-## Introduction
-
-This is the introduction section where you provide an overview.
-
-## Getting Started
-
-In this section, you will find steps to get started.
-
-## Features
-
-Here you can detail the key features of your application.
-
-## Installation
-
-Instructions on how to install the software.
-
-## Conclusion
-
-Final thoughts and a summary of the content discussed.
 
