@@ -2,10 +2,10 @@
 Welcome to the guide for integrating the frontend with our NestJS backend. This document will explain the key steps, routes, and patterns to follow for a smooth integration process.
 
 ## Table of Contents
-  1. [Base URL](#1.)
-  2. [API Endpoints](#2.)
-  3. [CORS](#3.)
-  4. [Example Code Snippets](#4.)
+1. [Base URL](#base-url)
+2. [API Endpoints](#api-endpoints)
+3. [CORS](#cors)
+4. [Example Code Snippets](#example-code-snippets)
 
 _________________________________________________________________________________________________
 
