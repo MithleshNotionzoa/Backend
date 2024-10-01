@@ -4,7 +4,7 @@ Welcome to the guide for integrating the frontend with our NestJS backend. This 
 ## Table of Contents
 1. [Base URL](#base-url)
 2. [Authentication](#authentication)
-3. [API Endpoints](#api-endpoints)
+3. [Logging](#logging)
 4. [CORS](#cors)
 5. [Example Code Snippets](#example-code-snippets)
 
@@ -35,13 +35,31 @@ ________________________________________________________________________________
      findOne()
     ```
 
-##  API Endpoints
+##  Logging
   - Create a log<br>
     Allows creation of a new log.
 
     URL with Endpoint
   ```
     http://localhost:3000/logs/post
+```
+- Get all logs<br>
+
+    URL with Endpoint
+```
+    http://localhost:3000/logs/get
+```
+- Update/Patch a log<br>
+
+    URL with Endpoint
+```
+    http://localhost:3000/logs/update/:id
+```
+- Delete a log<br>
+
+    URL with Endpoint
+```
+    http://localhost:3000/logs/delete/:id
 ```
 ##  CORS
 CORS is enabled in the NestJS backend, allowing cross-origin requests from the frontend. Make sure your frontend makes requests to the backend with proper Origin headers.
@@ -52,7 +70,6 @@ CORS is enabled in the NestJS backend, allowing cross-origin requests from the f
 fetch('http://localhost:3000/logs/post', {
     method: 'POST',
     headers: {
-        'Authorization': `Bearer ${token}`,
         'Content-Type': 'application/json'
     },
 body: JSON.stringify({ key1: 'value1', key2: 'value2' }), 
