@@ -3,9 +3,10 @@ Welcome to the guide for integrating the frontend with our NestJS backend. This 
 
 ## Table of Contents
 1. [Base URL](#base-url)
-2. [API Endpoints](#api-endpoints)
-3. [CORS](#cors)
-4. [Example Code Snippets](#example-code-snippets)
+2. [Auth](#auth)
+3. [API Endpoints](#api-endpoints)
+4. [CORS](#cors)
+5. [Example Code Snippets](#example-code-snippets)
 
 _________________________________________________________________________________________________
 
@@ -16,6 +17,10 @@ ________________________________________________________________________________
    http://localhost:3000
   ```
    Make sure all API calls from the frontend are directed to this base URL. Append the appropriate route based on the service or functionality you need.
+
+## Authentication   
+  ### Endpoint
+   `Post`
 
 ##  API Endpoints
   - Create a log<br>
