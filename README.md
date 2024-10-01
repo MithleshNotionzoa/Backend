@@ -21,12 +21,14 @@ ________________________________________________________________________________
 ## Authentication   
   **USE GRAPHQL CLIENT**
   - For Sign-up<br>
+  
     Call `createUser` function<br>
     
     ```
      createUser()
     ```
   - For Log-in<br>
+  
     Call `findOne` function<br>
     
     ```
