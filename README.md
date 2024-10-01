@@ -3,7 +3,7 @@ Welcome to the guide for integrating the frontend with our NestJS backend. This 
 
 ## Table of Contents
 1. [Base URL](#base-url)
-2. [Auth](#auth)
+2. [Authentication](#authentication)
 3. [API Endpoints](#api-endpoints)
 4. [CORS](#cors)
 5. [Example Code Snippets](#example-code-snippets)
