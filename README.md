@@ -19,8 +19,7 @@ ________________________________________________________________________________
    Make sure all API calls from the frontend are directed to this base URL. Append the appropriate route based on the service or functionality you need.
 
 ## Authentication   
-  ### Endpoint
-   `Post`
+  ### USE GRAPHQL CLIENT
 
 ##  API Endpoints
   - Create a log<br>
