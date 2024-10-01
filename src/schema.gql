@@ -1,0 +1,86 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  phone_number: String!
+  password: String!
+}
+
+type Auth {
+  """Example field (placeholder)"""
+  exampleField: Int!
+}
+
+type NewAppilication {
+  id: Float!
+  name: String!
+  url: String!
+  type: String!
+  label: String!
+  token: String!
+  endpoint: String!
+}
+
+type Query {
+  auth: [Auth!]!
+  findOne(createAuthInput: CreateAuthInput!): User!
+  user(id: Int!): User!
+  newAppilication(id: Int!): NewAppilication!
+}
+
+input CreateAuthInput {
+  email: String!
+  password: String!
+}
+
+type Mutation {
+  createAuth(createAuthInput: CreateAuthInput!): Auth!
+  updateAuth(updateAuthInput: UpdateAuthInput!): Auth!
+  removeAuth(id: Int!): Auth!
+  createUser(createUserInput: CreateUserInput!): User!
+  updateUser(updateUserInput: UpdateUserInput!): User!
+  removeUser(id: Int!): User!
+  createNewAppilication(createNewAppilicationInput: CreateNewAppilicationInput!): NewAppilication!
+  updateNewAppilication(updateNewAppilicationInput: UpdateNewAppilicationInput!): NewAppilication!
+  removeNewAppilication(id: Int!): NewAppilication!
+}
+
+input UpdateAuthInput {
+  email: String
+  password: String
+  id: Int!
+}
+
+input CreateUserInput {
+  name: String!
+  email: String!
+  phone_number: String!
+  password: String!
+}
+
+input UpdateUserInput {
+  name: String
+  email: String
+  phone_number: String
+  password: String
+  id: Int!
+}
+
+input CreateNewAppilicationInput {
+  name: String!
+  url: String!
+  type: String!
+  label: String!
+}
+
+input UpdateNewAppilicationInput {
+  name: String
+  url: String
+  type: String
+  label: String
+  id: Int!
+}
